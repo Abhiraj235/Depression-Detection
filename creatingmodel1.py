@@ -5,7 +5,7 @@ from datasets import Dataset
 import torch
 
 # Load dataset from CSV file
-df = pd.read_csv("indian_depression_dataset.csv")  # Ensure the CSV is in the same directory
+df = pd.read_csv("indian_depression_dataset.csv")  
 
 # Check dataset structure
 print(df.head())  # Optional: Print first few rows to verify loading

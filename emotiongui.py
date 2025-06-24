@@ -69,7 +69,5 @@ def create_gui():
 
     # Start the GUI loop
     root.mainloop()
-
-# Run the GUI
 if __name__ == "__main__":
     create_gui()

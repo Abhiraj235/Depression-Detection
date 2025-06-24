@@ -10,7 +10,7 @@ from tkinter import messagebox
 # Load the pretrained model and tokenizer model 1
 tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased")
 model = AutoModelForSequenceClassification.from_pretrained("./depression_detector")
-
+#Below are the three model we can uncomment it 
 # Load the pretrained model and tokenizer model 2
 #tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
 #model = AutoModelForSequenceClassification.from_pretrained("./depression_detector2")
